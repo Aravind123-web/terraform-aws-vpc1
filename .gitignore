@@ -1,0 +1,21 @@
+# Terraform local directories
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+
+# Terraform variable files
+*.tfvars
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Provider EXE files (Windows)
+*.exe
+
+
